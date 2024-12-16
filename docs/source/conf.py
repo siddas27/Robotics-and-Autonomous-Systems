@@ -31,15 +31,15 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
-    "sphinx_design",
-    "sphinx_copybutton",
-    "sphinxext.rediraffe",
-    # disabled due to https://github.com/mgaitan/sphinxcontrib-mermaid/issues/109
-    # "sphinxcontrib.mermaid",
-    "sphinxext.opengraph",
-    "sphinx_pyscript",
-    "sphinx_tippy",
-    "sphinx_togglebutton",
+    # "sphinx_design",
+    # "sphinx_copybutton",
+    # "sphinxext.rediraffe",
+    # # disabled due to https://github.com/mgaitan/sphinxcontrib-mermaid/issues/109
+    # # "sphinxcontrib.mermaid",
+    # "sphinxext.opengraph",
+    # "sphinx_pyscript",
+    # "sphinx_tippy",
+    # "sphinx_togglebutton",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -147,12 +147,12 @@ myst_substitutions = {
 # -- HTML output -------------------------------------------------
 
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo-wide.svg"
-html_favicon = "_static/logo-square.svg"
+# html_logo = "_static/logo-wide.svg"
+# html_favicon = "_static/logo-square.svg"
 html_title = ""
 html_theme_options = {
     "home_page_in_toc": True,
-    # "github_url": "https://github.com/executablebooks/MyST-Parser",
+    "github_url": "https://github.com/executablebooks/MyST-Parser",
     "repository_url": "https://github.com/executablebooks/MyST-Parser",
     "repository_branch": "master",
     "path_to_docs": "docs",
