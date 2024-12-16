@@ -27,7 +27,6 @@ language = "en"
 # ones.
 extensions = [
     "myst_parser",
-    "autodoc2",
     "sphinx.ext.intersphinx",
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc",
