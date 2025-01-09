@@ -2,23 +2,22 @@
 sd_hide_title: true
 ---
 
-# 🔎 Overview
+# Introduction
 
 ```{rubric} Robotics and Autonomous Systems Reference!
 ```
+# Robotics and Autonomous System Reference
 
-A Sphinx and Docutils extension to parse MyST,
+## Purpose of this Reference
 
-MyST-parser can be configured at both the global and individual document level,
-to modify parsing behaviour and access extended syntax features.
+1. Serve as a quick reference for checking buzzwords, understanding topics, revising for interviews, or delving deeply into subjects.
+2. Act as the first stop for finding resources on any topic, including courses, blogs, papers, video tutorials, and code.
+3. Potentially be used as a resource for AI agents.
 
-+++
-[Learn more »](p)
-:::
+## Contributing
 
-::::
-
----
+- Please use appropriate template from templates folder and try to cover all subheading in the template if possible.
+- Looking forword to your PRs!.
 
 ```{rubric} Additional resources
 ```
@@ -44,7 +43,7 @@ The MyST markdown language and MyST parser are both supported by the open commun
 :caption: ✏️ Authoring
 
 perception.md
-control.md
+content/control.md
 planning.md
 stateest.md
 sensorfusion.md
