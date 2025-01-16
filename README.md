@@ -1,6 +1,7 @@
 # Robotics and Autonomous System Reference
 
 [![Documentation Status](https://readthedocs.org/projects/robotics-and-autonomous-systems/badge/?version=latest)](https://robotics-and-autonomous-systems.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 Read the web-friendly version [here](https://robotics-and-autonomous-systems.readthedocs.io).
 
@@ -8,10 +9,12 @@ Read the web-friendly version [here](https://robotics-and-autonomous-systems.rea
 
 1. Serve as a quick reference for checking buzzwords, understanding topics, revising for interviews, or delving deeply into subjects.
 2. Act as the first stop for finding resources on any topic, including courses, blogs, papers, video tutorials, and code.
-3. Potentially be used as a resource for AI agents.
+3. Keep the reference structured, consistent, and easy to navigate manually or exeact programmatically.
+4. Potentially be used as a resource for AI agents.
 
 ## Contributing
 
+- Check `CONTRIBUTE.md` file for more information.
 - Please use appropriate template from templates folder and try to cover all subheading in the template if possible.
 - Looking forword to your PRs!
 
