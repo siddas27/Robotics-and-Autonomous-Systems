@@ -12,7 +12,9 @@ sd_hide_title: true
 
 1. Serve as a quick reference for checking buzzwords, understanding topics, revising for interviews, or delving deeply into subjects.
 2. Act as the first stop for finding resources on any topic, including courses, blogs, papers, video tutorials, and code.
-3. Potentially be used as a resource for AI agents.
+3. Keep the reference structured, consistent, and easy to navigate manually or exeact programmatically.
+4. Being an online reference it can be always updated with latest and SOTA things.
+5. Potentially be used as a resource for AI agents.
 
 ## Contributing
 
@@ -40,7 +42,8 @@ The MyST markdown language and MyST parser are both supported by the open commun
 
 ```{toctree}
 :hidden:
-:caption: ✏️ Authoring
+:caption: ✏️ perception.md
+
 
 perception.md
 content/control.md
@@ -49,5 +52,4 @@ stateest.md
 sensorfusion.md
 ```
 
-[commonmark]: https://commonmark.org/
-[github-ci]: https://github.com/executablebooks/MyST-Parser/workflows/continuous-integration/badge.svg?branch=master
+[github-link]: https://github.com/siddas27/Robotics-and-Autonomous-Systems

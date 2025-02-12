@@ -8,16 +8,15 @@ from datetime import date
 
 from sphinx.application import Sphinx
 
-from myst_parser import __version__
 
 # -- Project information -----------------------------------------------------
 
-project = "MyST Parser"
-copyright = f"{date.today().year}, Executable Book Project"
-author = "Executable Book Project"
-version = __version__
+project = "Robotics and Autonomous Systems Reference"
+copyright = f"{date.today().year}, Siddharth Das"
+author = "Siddharth Das"
+version = "0.1.0"
 
-master_doc = "index"
+master_doc = "source/index"
 language = "en"
 
 # -- General configuration ---------------------------------------------------
@@ -173,8 +172,8 @@ ogp_custom_meta_tags = [
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
-html_css_files = ["local.css"]
+# html_static_path = ["_static"]
+# html_css_files = ["local.css"]
 
 rediraffe_redirects = {
     "using/intro.md": "sphinx/intro.md",
